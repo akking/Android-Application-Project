@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_parameter_setup">ParameterSetup</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_config_parameter">ConfigParameter</string>
+    <string name="title_activity_brew">Brew</string>
+    <string name="title_activity_cupping">Cupping</string>
+    <string name="origin">Coffee Bean Origin: </string>
+    <string name="rlevel">Roast Level: </string>
+    <string name="days">Days From Roast: </string>
+    <string name="des">Description: </string>
+
+</resources>

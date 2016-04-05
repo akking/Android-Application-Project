@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.depaul.csc472.dli.finalProject.Brew"
+    android:background="@color/backgroud"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:id="@+id/brew_brewMethod_title"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interval 1 :Remaining Time"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/brew_intervalRemainTime"
+        android:layout_gravity="center_horizontal"
+        android:text="00"
+        android:layout_margin="10dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interval 1 :Target Weight"
+        android:id="@+id/textView20"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="00"
+        android:id="@+id/brew_intervalTargetWeight"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Interval 1"
+        android:id="@+id/brew_intervalIndex"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:gravity="center_vertical" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/brew_start"
+        android:layout_weight="0.15"
+        android:layout_margin="5dp"
+        android:background="@color/coffeebrown"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+    </LinearLayout>
+
+    <edu.depaul.csc472.dli.finalProject.BrewCurveViewV2
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:id="@+id/view"
+        android:layout_weight="0.19"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Cupping"
+        android:id="@+id/cupping"
+        android:layout_gravity="bottom|right"
+        android:layout_marginTop="25dp"
+        android:background="@color/coffeebrown"/>
+
+</LinearLayout>
